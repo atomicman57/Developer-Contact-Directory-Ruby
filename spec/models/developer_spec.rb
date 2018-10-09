@@ -9,5 +9,6 @@ RSpec.describe Developer, type: :model do
   it { should validate_presence_of(:phone_number) }
   it { should validate_presence_of(:website) }
   it { should validate_presence_of(:country) }
+  it { should validate_presence_of(:category_id) }
 
 end

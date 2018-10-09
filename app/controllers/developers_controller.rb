@@ -18,6 +18,12 @@ class DevelopersController < ApplicationController
         json_response(@developer)
     end
 
+    # GET categories/:id/developers
+    def getByCategory
+        @developer = Developer.where(category_id: params[:id]).order("created_at DESC")
+        json_response(@developer)
+    end
+
     # PUT /developers/:id
     def update
         @developer.update(developer_params)
