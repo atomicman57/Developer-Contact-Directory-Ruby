@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  belongs_to :developer
+  validates_presence_of :name
 end

@@ -7,8 +7,8 @@ class CreateDevelopers < ActiveRecord::Migration[5.2]
       t.string :github_username
       t.string :phone_number
       t.string :website
-      t.integer :category
       t.string :country
+      t.references :category, foreign_key: true
 
       t.timestamps
     end
