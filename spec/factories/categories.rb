@@ -1,6 +1,6 @@
 FactoryBot.define do
     factory :category do
-      name { Faker::ProgrammingLanguage.name }
+      name { Faker::ProgrammingLanguage.unique.name }
 
     end
   end
