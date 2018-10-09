@@ -1,5 +1,9 @@
 # Developer Contact Details API
 
+## Introduction
+
+This API perform CRUD operations on Developer's contact details and categorize the developer's as either a front-end developer of backend developer and/or some other categories
+
 ## Technology
 * Ruby
 * Ruby on rails
@@ -32,9 +36,9 @@
 -   `bin/rails db` opens the database client.
 -   `bin/rails server` starts the API.
 
-## API
+## API Documentation
 
-API documentation.
+This is the [link to the API documentation](https://documenter.getpostman.com/view/4605460/RWgp1KU4).
 
 ### Developer
 
@@ -365,4 +369,7 @@ Response:
 HTTP/1.1 204 No Content
 ```
 
+## License
 
+This project is authored by Philips Blessing and is licensed 
+for your use, modification and distribution under [the MIT license](https://en.wikipedia.org/wiki/MIT_License).
